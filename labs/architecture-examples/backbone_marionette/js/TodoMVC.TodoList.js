@@ -55,7 +55,7 @@ TodoMVC.module('TodoList', function(TodoList, App, Backbone, Marionette, $, _) {
 		},
 
     toggleFooter: function() {
-      App.footer.$el.toggle(this.todoList.length);
+      App.footer.$el.toggle(!!this.todoList.length);
     },
 
 		// Set the filter to show complete or all items
