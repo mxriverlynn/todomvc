@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" data-framework="closure">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Closure • TodoMVC</title>
+		<link rel="stylesheet" href="node_modules/todomvc-common/base.css">
+		<link rel="stylesheet" href="node_modules/todomvc-app-css/index.css">
+	</head>
+	<body>
+		<section class="todoapp">
+			<header class="header">
+				<h1>todos</h1>
+				<input class="new-todo" placeholder="What needs to be done?" autofocus>
+			</header>
+			<section class="main">
+				<input id="toggle-all" class="toggle-all" type="checkbox">
+				<label for="toggle-all">Mark all as complete</label>
+				<ul class="todo-list">
+				</ul>
+			</section>
+			<footer class="footer">
+				<ul class="filters">
+					<li>
+						<a class="selected" href="#/">All</a>
+					</li>
+					<li>
+						<a href="#/active">Active</a>
+					</li>
+					<li>
+						<a href="#/completed">Completed</a>
+					</li>
+				</ul>
+			</footer>
+		</section>
+		<footer class="info">
+			<p>Double-click to edit a todo</p>
+			<p>Created by <a href="http://www.scottlogic.co.uk/blog/chris/">Chris Price</a></p>
+			<p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+		</footer>
+		<script src="node_modules/todomvc-common/base.js"></script>
+		<!-- The compiled version (see readme.md) -->
+		<script  src="js/compiled.js"></script>
+		<!-- The RAW development version (see readme.md) -->
+		<!--<script src="http://localhost:9810/compile?id=todomvc&mode=RAW"></script>-->
+		<!-- The COMPILED development version (see readme.md) -->
+		<!-- <script src="http://localhost:9810/compile?id=todomvc&mode=ADVANCED"></script> -->
+	</body>
+</html>
